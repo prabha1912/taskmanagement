@@ -1,0 +1,94 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Links */
+a {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Task List Page */
+#task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Task Card */
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Create/Edit Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

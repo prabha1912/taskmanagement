@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create / Edit Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+<h1 id="form-title">Create Task</h1>
+<form id="task-form">
+    <input type="hidden" id="taskId" />
+    <label>Title : </label>
+    <input type="text" id="title" required><br>
+    <label>Decription : </label>
+    <textarea id="description"></textarea><br>
+    <label>Status : </label>
+    <select id="status">
+        <option>Pending</option>
+        <option>In Progress</option>
+        <option>Completed</option>
+    </select><br>
+    <label>Due Date : </label>
+    <input type="datetime-local" id="dueDateTime"><br>
+    <button type="submit">Save</button>
+</form>
+<a href="index.html">Back to Task List</a>
+<script>setupForm();</script>
+</body>
+</html>
